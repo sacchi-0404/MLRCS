@@ -1,0 +1,18 @@
+{
+    "target_overrides": {
+        "NUCLEO_F767ZI": {
+            "target.clock_source": "USE_PLL_HSE_EXTC",
+            "target.printf_lib": "std",
+            "target.lse_available": false,
+            "target.lse_bypass": false,
+            "target.rtc_clock_source":"USE_RTC_CLK_LSI",
+            "target.hse_bypass": true,
+            "platform.stdio-convert-newlines": true,
+            "platform.stdio-baud-rate": 921600,
+            "target.c_lib": "std",
+            "platform.minimal-printf-enable-64-bit": true,
+            "platform.minimal-printf-enable-floating-point": true,
+            "platform.minimal-printf-set-floating-point-max-decimals": 6
+        }
+    }
+}
